@@ -1,0 +1,171 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+    color: #fff;
+    background: url("../images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* *,
+*after,
+*before{
+    box-sizing: border-box;
+}
+*/
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+hr{
+  margin: 0px;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+section {
+    background-color: rgba(31, 40, 51, 0.90);
+}
+
+/* header */
+header {
+    position: fixed;
+    width: 100%;
+    background-color: rgba(31, 40, 51, 1);
+    border-bottom:1px solid #fff;
+}
+
+nav {
+    padding: 15px 0px;
+}
+
+.nav-link {
+    font-size: 25px;
+    margin-right: 40px;
+    color: #fff;
+    transition: linear .3s;
+    font-weight: bold ;
+}
+.nav-link:hover{
+    color: cornflowerblue;
+}
+
+/* intro */
+.intro-inner{
+  padding: 80px 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.intro-image{
+  width: 600px;
+  border-radius: 15px;
+  border: 2px solid #fff;
+}
+
+.intro-name{
+  font-size: 60px;
+  text-align: right;
+}
+
+.intro-name span{
+  font-size: 45px;
+  text-align: right;
+}
+
+/* about */
+#About-me{
+  text-align: center;
+
+}
+
+.about{
+  top: -100px;
+}
+
+.about-inner{
+  font-size: 25px;
+}
+
+/* motivation */
+#Motivation{
+  padding-top: 100px;
+  text-align: center;
+}
+
+.motivation-inner{
+  font-size: 25px;
+}
+
+
+/* Skills */
+#Skills{
+  padding-top: 100px;
+  text-align: center;
+}
+
+.skills-inner{
+  font-size: 25px;
+}
+
+.skills-content{
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.skills-content img{
+  width: 400px;
+}
+
+/* Achievements */
+#Achievements{
+  padding-top: 100px;
+  text-align: center;
+}
+
+.achievements-inner{
+  font-size: 25px;
+}
+
+/* Contacts */
+#Contacts{
+  font-size: 2em;
+  padding-top: 100px;
+  text-align: center;
+}
+
+.contacts-inner{
+  font-size: 25px;
+}
+
+/* Footer */
+.footer-content{
+  padding-top: 20px
+}
+
+.footer-links,span{
+  color: #fff;
+  margin: 40px;
+  font-size: 25px;
+  transition: linear .3s;
+  font-weight: bold;
+}
+
+.footer-links:hover{
+  color: cornflowerblue;
+}

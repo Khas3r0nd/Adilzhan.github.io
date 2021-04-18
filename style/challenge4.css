@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+}
+
+div{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+
+#red{
+    background: red;
+    left: 400px;
+    top: 400px;
+}
+
+#blue{
+    background: blue;
+    left: 200px;
+    top: 200px;
+}
+
+#green{
+    background: green;
+}
