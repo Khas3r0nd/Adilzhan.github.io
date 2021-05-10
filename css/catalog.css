@@ -1,0 +1,30 @@
+body {
+    padding-top: 80px;
+}
+
+.row1 {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    margin-bottom: 60px;
+    margin-right: 1px;
+}
+
+img {
+    height: 500px;
+    width: 500px;
+}
+
+h1 {
+    text-align: center;
+    padding: 15px 0px;
+}
+
+.inner {
+    display: flex;
+    justify-content: center;
+}
+
